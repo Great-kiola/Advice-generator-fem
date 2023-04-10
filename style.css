@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
 
 *,
 *::before,
@@ -10,7 +10,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,18 +18,35 @@ body {
   background-color: var(--DarkBlue);
 }
 
-.container{
-    background-color: var(--Grayish-Blue);
-    color: var(--LightCyan);
-    width: 550px;
-    height: 350px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 25px;
+.container {
+  background-color: var(--Grayish-Blue);
+  color: var(--LightCyan);
+  width: 550px;
+  height: 350px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 25px;
+  padding: 40px;
+}
 
+h1{
+  text-align: center;
+  font-size: var(--font-size);
+}
+
+p{
+  color: var(--NeonGreen);
+}
+
+.line{
+  content: url(./images/pattern-divider-desktop.svg);
+  position: relative;
+  width: 100%;
+  border: 1px solid var;
+  z-index: 1;
 }
 
 :root {
@@ -38,6 +55,7 @@ body {
   --DarkBlue: hsl(218, 23%, 16%);
   --LightCyan: hsl(193, 38%, 86%);
   --NeonGreen: hsl(150, 100%, 66%);
+  --font-size: 1.8rem;
 }
 
 .attribution {

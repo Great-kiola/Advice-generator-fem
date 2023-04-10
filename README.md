@@ -5,7 +5,8 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img width="839" alt="image" src="https://user-images.githubusercontent.com/117322790/231014532-b6f2eae4-86b1-4903-ada1-58b9a03a6ce9.png">
+
 
 ### The challenge
 Users should be able to:
